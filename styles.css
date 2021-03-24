@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#rectangle {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  background: linear-gradient(90deg, aquamarine, 70%, goldenrod);
+}
+
+#circle {
+  height: min(100vh, 100vw);
+  width: min(100vh, 100vw);
+  border-radius: 100%;
+  background: linear-gradient(180deg, aquamarine, 70%, goldenrod);
+}
